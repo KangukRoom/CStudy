@@ -60,7 +60,7 @@ void InsertNode(Node **Head){
 		tmp->Next = *Head;
 		*Head = tmp;
 	}
-};
+}
 
 void ViewNode(Node *Head){
 	for(;Head != NULL;Head = Head->Next) 
